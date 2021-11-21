@@ -1,76 +1,76 @@
-# # Calculating the average of student heights without using the sum and len functions challenge
-# 
-# student_heights = input("Input a list of student heights").split()
-# 
-# for n in range(0, len(student_heights)):
-#     student_heights[n] = int(student_heights[n])
-# 
-# total_height =0
-# for height in student_heights:
-#     total_height = total_height + height
-# print(total_height)
-# 
-# number_of_students = 0
-# for student in student_heights:
-#     number_of_students = number_of_students+1
-# print(number_of_students)
-# 
-# 
-# average = total_height/number_of_students
-# print(average)
-# 
+# Calculating the average of student heights without using the sum and len functions challenge
+
+student_heights = input("Input a list of student heights").split()
+
+for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
+
+total_height =0
+for height in student_heights:
+    total_height = total_height + height
+print(total_height)
+
+number_of_students = 0
+for student in student_heights:
+    number_of_students = number_of_students+1
+print(number_of_students)
+
+
+average = total_height/number_of_students
+print(average)
+
 
 
 # Calculating the highest score from a list of scores.
-# student_scores = input("Input a list of student scores").split()
-# for n in range(0,len(student_scores)):
-#     student_scores[n] = int(student_scores[n])
-# print(student_scores)
-#
-# highest_score = 0
-# for score in student_scores:
-#     if score> highest_score:
-#         highest_score = score
-# print(highest_score)
-#
-# lowest_score = 1
-# for score in student_scores:
-#     if score<lowest_score:
-#         lowest_score=score
-# print(lowest_score)
+student_scores = input("Input a list of student scores").split()
+for n in range(0,len(student_scores)):
+    student_scores[n] = int(student_scores[n])
+print(student_scores)
 
-#
-# # Using a for loop to sum number from 1 to 100
-#
-# total = 0
-# for number in range(0,101):
-#     total = total + number
-# print(total)
+highest_score = 0
+for score in student_scores:
+    if score> highest_score:
+        highest_score = score
+print(highest_score)
 
+lowest_score = 1
+for score in student_scores:
+    if score<lowest_score:
+        lowest_score=score
+print(lowest_score)
+
+
+# Using a for loop to sum number from 1 to 100
+
+total = 0
+for number in range(0,101):
+    total = total + number
+print(total)
+#
 # Write a code that sums even numberr between 1 to 100 inclusive
 
-# total_even_numbers = 0
-# for even_numbers in range(0,101,2):
-#     total_even_numbers = total_even_numbers+even_numbers
-# print(total_even_numbers)
+total_even_numbers = 0
+for even_numbers in range(0,101,2):
+    total_even_numbers = total_even_numbers+even_numbers
+print(total_even_numbers)
 
-# total = 0
-# for even_number in range(1,101):
-#     if even_number%2 ==0:
-#         total = total +even_number
-# print(total)
+total = 0
+for even_number in range(1,101):
+    if even_number%2 ==0:
+        total = total +even_number
+print(total)
 
 # The Fizzbuzz challenge
-#
-# for divisible_numbers in range(1,101):
-#     if divisible_numbers % 3 == 0 and divisible_numbers % 5 == 0:
-#         print("FizzBuzz")
-#     elif divisible_numbers%3 ==0:
-#         print("Fizz")
-#     elif divisible_numbers %5 ==0:
-#         print("Buzz")
-#     else:
-#         print(divisible_numbers)
+
+for divisible_numbers in range(1,101):
+    if divisible_numbers % 3 == 0 and divisible_numbers % 5 == 0:
+        print("FizzBuzz")
+    elif divisible_numbers%3 ==0:
+        print("Fizz")
+    elif divisible_numbers %5 ==0:
+        print("Buzz")
+    else:
+        print(divisible_numbers)
 
 # Password Generator Project
 
