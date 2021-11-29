@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2021-11-26T00:30:40.721Z" agent="5.0 (Windows)" etag="ZDDrU12FU4UKMDAPm1S0" version="15.8.6" type="github">
+  <diagram id="etH4VK2lttWv8-SOvXQd" name="Page-1">
+    <mxGraphModel dx="1632" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-5" target="gO4gWtftoqkVYq0ht2U4-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-5" value="Ask the user to guess the " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-7" target="gO4gWtftoqkVYq0ht2U4-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-7" value="Generate a random word" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-8" target="gO4gWtftoqkVYq0ht2U4-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-8" value="Generate as many blanks as letters in word" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-26" value="&lt;div&gt;Yes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-9" target="gO4gWtftoqkVYq0ht2U4-10" edge="1">
+          <mxGeometry x="0.4593" y="-30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-27" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-9" target="gO4gWtftoqkVYq0ht2U4-11" edge="1">
+          <mxGeometry x="0.4839" y="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-9" value="Is the guessed letter in the word" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-10" target="gO4gWtftoqkVYq0ht2U4-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-10" value="Replace the blank with the letter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-11" target="gO4gWtftoqkVYq0ht2U4-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-11" value="Lose a life" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-33" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-12" target="gO4gWtftoqkVYq0ht2U4-14" edge="1">
+          <mxGeometry x="-0.6667" y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-12" target="gO4gWtftoqkVYq0ht2U4-5" edge="1">
+          <mxGeometry x="-0.5846" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-12" value="Are all the blanks filled" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="540" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-34" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-13" target="gO4gWtftoqkVYq0ht2U4-14" edge="1">
+          <mxGeometry x="-0.5417" y="25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-36" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="gO4gWtftoqkVYq0ht2U4-13" target="gO4gWtftoqkVYq0ht2U4-5" edge="1">
+          <mxGeometry x="-0.623" y="-20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-13" value="Have the run out of lives?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="565" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gO4gWtftoqkVYq0ht2U4-14" value="Game over" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
